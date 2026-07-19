@@ -1,0 +1,14 @@
+# Jekyll config for GitHub Pages
+title: Skyrim RP Brasil — Reino Alto
+description: Wiki oficial do Skyrim Roleplay Brasil — servidor brasileiro de Skyrim Special Edition multiplayer com lore original da Quinta Era.
+theme: jekyll-theme-cayman  # ou outro tema clean; o CSS custom sobrepõe
+
+include:
+  - assets/css
+  - assets/js
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
